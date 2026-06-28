@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="file1.js" defer></script>
+  </head>
+  <body>
+    <section class="sec-todo container">
+      <h2>Your Plan Of Today?</h2>
+      <form class="form-todo">
+        <input type="text" placeholder="Add todo" />
+        <!-- priority setting -->
+        <!-- <div class="dropdown">
+          <button class="todo-btn butn">Priority</button>
+          <div class="content">
+            <ul>
+              <li>Top</li>
+              <li>Medium</li>
+              <li>Low</li>
+            </ul>
+          </div>
+        </div> -->
+        <!-- <label for="priority">Priority:</label> -->
+        <select id="priority" name="priority">
+          <option value="High">High priority</option>
+          <option value="Medium">Medium priority</option>
+          <option value="Low">Low priority</option>
+        </select>
+
+        <input type="submit" value="Add todo" class="btn" />
+      </form>
+      <!-- Adding a list here -->
+      <ul class="todo-list">
+        <li>
+          <span class="text">Do This or That</span>
+          <!-- add buttons -->
+          <div class="todo-buttons">
+            <button class="todo-btn done">Done</button>
+            <button class="todo-btn remove">Remove</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
