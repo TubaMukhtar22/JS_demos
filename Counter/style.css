@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(178, 231, 233);
+}
+
+#counterlabel{
+    font-size: 10em;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#btnContainer{
+display: flex;
+justify-content: center; 
+   
+}
+button{
+    padding: 5px;
+    margin: 0px 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+   
+    
+}
+
+#decreaseBtn{
+    background-color: rgb(218, 84, 84);
+   transition: background-color 0.25s;
+}
+#resetBtn{
+    background-color: rgb(238, 204, 11);
+    transition: background-color 0.25s;
+}
+#increaseBtn{
+    background-color: rgb(52, 243, 5);
+     transition: background-color 0.25s;
+}
+#increaseBtn:hover{
+  background-color: black;
+}
+#decreaseBtn:hover{
+     background-color: black;
+}
+#resetBtn:hover{
+     background-color: black;
+}
